@@ -7,6 +7,8 @@ fun main() {
     println("Today's topic: $learningTopic")
     println("Study target: $studyMinutes minutes")
 
-    studyMinutes = 20
+    studyMinutes = 20 // ✅ var can be reassigned
     println("Actual study time: $studyMinutes minutes")
+
+    //developerName = "Srikanth" // ❌ Cannot reassign val
 }
